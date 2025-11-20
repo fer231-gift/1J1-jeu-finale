@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Vintage Stroke";
+    src: url("../fonts/VintageStroke.ttf") format("truetype");
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background: url("../img/brazil-1766926_1280.jpg");
+}
+
+canvas {
+    border: 1px solid hsl(0, 0%, 0%);
+    background-color: #f3cbcbe1;
+}
+
